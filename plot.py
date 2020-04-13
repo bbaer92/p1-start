@@ -23,10 +23,8 @@ data = np.loadtxt(filename, delimiter= ",", skiprows=32)   # Attempts to load fi
 
 Stress= data[:,3]
 Strain= data[:,7]
-print (Stress)
-print(Strain)
 
-plt.plot(Strain,Stress)
+plt.plot(Strain,Stress,color='b',label="Stress vs Strain",linestyle="--")
 
 
 ## Part 2
@@ -46,5 +44,3 @@ plt.plot(Strain,Stress)
 # plots and Young's moduli for all of the cleaned up files in your data 
 # directory. If you haven't already, this is a good time to add text to 
 # your .gitignore file so you're not committing the figures to your repository.
-
-
