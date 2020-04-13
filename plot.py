@@ -25,7 +25,10 @@ Stress= data[:,3]
 Strain= data[:,7]
 
 plt.plot(Strain,Stress,color='b',label="Stress vs Strain",linestyle="--")
-
+plt.title('Stress vs Strain')
+plt.xlabel('Strain [Exten.] %')
+plt.ylabel('Stress (MPa)')
+plt.legend(loc='best');
 
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
