@@ -12,7 +12,7 @@ data = np.loadtxt(filename, delimiter= ",", skiprows=32)   # Attempts to load fi
 # Check by running:
 #   $ python plot.py raw-data/Sp15_245L_sect-001_group-1_glass.raw
 # at the command line.
-
+	#python plot.py ______ function no longer errors when running. Continuing. 
 
 ## Part 1
 # Figure out what columns and rows of data we need to plot
@@ -21,6 +21,8 @@ data = np.loadtxt(filename, delimiter= ",", skiprows=32)   # Attempts to load fi
 # Make sure to include axis labels and units!
 # plt.plot(xdata,ydata, arguments-to-make-plot-pretty)
 
+Stress= data[:,2]
+Strain= data[:,6]
 
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
