@@ -26,7 +26,7 @@ Strain= data[:,7]
 print (Stress)
 print(Strain)
 
-
+plt.plot(Strain,Stress)
 
 
 ## Part 2
