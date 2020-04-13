@@ -41,4 +41,3 @@ data = np.loadtxt(raw-data)   # Attempts to load filename into local variable da
 # your .gitignore file so you're not committing the figures to your repository.
 
 
-Edit to submit 1st push to git!
