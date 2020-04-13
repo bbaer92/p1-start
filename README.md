@@ -2,6 +2,9 @@ This is a desciption of the contents of the P1-start repository as edited by Bra
 
 	This program is intended for use with CSV data files in order to extract and plot Stress and Strain data of defined CSV files. 
 
+To obtain this program: 
+	Clone or download from my git respository at https://github.com/bbaer92/p1-start
+
 Use of this program requires access to the following: 
 	Matplotlib.plot
 	Python3
