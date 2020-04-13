@@ -46,7 +46,7 @@ plt.legend(loc='best')
 
 Slope,y_int = np.polyfit(Strain,Stress,1)
 linear_fit = np.poly1d((Slope,y_int))
-plt.plot(linear_fit,color='r',label="linear regression")
+plt.plot(Strain,linear_fit(Strain),color='r',label="linear regression")
 plt.show();
 
 ## Part 4
