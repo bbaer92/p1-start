@@ -28,12 +28,15 @@ plt.plot(Strain,Stress,color='b',label="Stress vs Strain",linestyle="--")
 plt.title('Stress vs Strain')
 plt.xlabel('Strain [Exten.] %')
 plt.ylabel('Stress (MPa)')
-plt.legend(loc='best');
+plt.legend(loc='best')
 
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
 # Edit the files (use git liberally here!) to make them more usable
-
+	#Unable to view graph due to remote operation.
+	# I believe I need to set up Tunneling access between SSH source to 
+	#allow the transfer of diplays but unsure how.
+	# No Syntax errors so continuing. 
 
 ## Part 3
 # Use linear regression to calculate the slope of the linear part of
@@ -41,6 +44,10 @@ plt.legend(loc='best');
 # sure it makes sense! Use the slope of this line to calculate and print
 # the Young's modulus (with units!)
 
+Slope,y_int = np.polyfit(Strain,Stress,1)
+linear_fit = np.poly1d((Slope,y_int))
+plt.plot(linear_fit,color='r',label="linear regression")
+plt.show();
 
 ## Part 4
 # Modify your code to save your plots to a file and see if you can generate
