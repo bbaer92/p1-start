@@ -24,7 +24,7 @@ data = np.loadtxt(filename, delimiter= ",", skiprows=32)   # Attempts to load fi
 Stress= data[:,3]
 Strain= data[:,7]
 
-plt.plot(Strain,Stress,color='b',label="Stress vs Strain",linestyle="--")
+plt.plot(Strain,Stress,color="k",linestyle="--")
 plt.title('Stress vs Strain')
 plt.xlabel('Strain [Exten.] %')
 plt.ylabel('Stress (MPa)')
