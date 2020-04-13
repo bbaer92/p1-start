@@ -1312,25 +1312,6 @@
 9.966,-0.09987496,-16.72562,-851828.8,0,0,0,-0.8322913,-15349.85
 9.974,-0.09987496,-16.73773,-852445.7,0,0,0,-0.8322913,-15360.96
 9.978,-0.1001111,-16.74446,-852788.2,0,0,0,-0.834259,-15367.13
-"Specimen",2
-"Specimen name:",""
-"Width:",6.350000,"mm"
-"Thickness:",1.524000,"mm"
-"Length:",12.000000,"mm"
-"Diameter:",5.000000,"um"
-"Inner diameter:",0.500000,"mm"
-"Outer diameter:",1.000000,"mm"
-"Wall thickness:",0.500000,"mm"
-"Area:",19.634954,"um*um"
-"Linear density:",1.000000,"den"
-"Sled weight:",9.806650,"N"
-"Loading span:",0.000000,"mm"
-"Support span:",1.000000,"mm"
-"Span ratio:","2"
-"Fixture type:","3-point"
-"Comment:",""
-"Included"
-"Time sec","Extension mm","Load N","Stress MPa","Cycle Count ","Total Cycle Count ","Repetitions Count ","Strain [Exten.] %","Tenacity gf/tex"
 0,-0.7815275,-4.753184,-242077.7,0,0,0,-6.512729,-4362.209
 0.028,-0.7815275,-4.743083,-241563.2,0,0,0,-6.512729,-4352.938
 0.042,-0.7815275,-4.732641,-241031.4,0,0,0,-6.512729,-4343.355
@@ -8357,25 +8338,6 @@
 84.712,-1.628458,-45.48033,-2316295,0,0,0,-13.57048,-41739.33
 84.724,-1.628694,-45.4846,-2316512,0,0,0,-13.57245,-41743.24
 84.738,-1.628694,-45.47873,-2316213,0,0,0,-13.57245,-41737.86
-"Specimen",3
-"Specimen name:",""
-"Width:",6.350000,"mm"
-"Thickness:",1.524000,"mm"
-"Length:",12.000000,"mm"
-"Diameter:",5.000000,"um"
-"Inner diameter:",0.500000,"mm"
-"Outer diameter:",1.000000,"mm"
-"Wall thickness:",0.500000,"mm"
-"Area:",19.634954,"um*um"
-"Linear density:",1.000000,"den"
-"Sled weight:",9.806650,"N"
-"Loading span:",0.000000,"mm"
-"Support span:",1.000000,"mm"
-"Span ratio:","2"
-"Fixture type:","3-point"
-"Comment:",""
-"Included"
-"Time sec","Extension mm","Load N","Stress MPa","Cycle Count ","Total Cycle Count ","Repetitions Count ","Strain [Exten.] %","Tenacity gf/tex"
 0,0,-4.965317,-252881.5,0,0,0,0,-4556.893
 0.006,0,-4.979633,-253610.6,0,0,0,0,-4570.031
 0.01,0,-4.992541,-254268,0,0,0,0,-4581.877
