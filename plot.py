@@ -24,11 +24,10 @@ data = np.loadtxt(filename, delimiter= ",", skiprows=32)   # Attempts to load fi
 Stress= data[:,3]
 Strain= data[:,7]
 
-plt.plot(Strain,Stress,color="k",linestyle="--")
+plt.plot(Strain,Stress,color="k",linestyle="--",label='raw data')
 plt.title('Stress vs Strain')
 plt.xlabel('Strain [Exten.] %')
 plt.ylabel('Stress (MPa)')
-plt.legend(loc='best')
 
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
@@ -47,8 +46,8 @@ plt.legend(loc='best')
 Slope,y_int = np.polyfit(Strain,Stress,1)
 linear_fit = np.poly1d((Slope,y_int))
 plt.plot(Strain,linear_fit(Strain),color='r',label="linear regression")
+plt.legend(loc='best')
 plt.show();
-
 ## Part 4
 # Modify your code to save your plots to a file and see if you can generate
 # plots and Young's moduli for all of the cleaned up files in your data 
