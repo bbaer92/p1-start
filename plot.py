@@ -21,8 +21,13 @@ data = np.loadtxt(filename, delimiter= ",", skiprows=32)   # Attempts to load fi
 # Make sure to include axis labels and units!
 # plt.plot(xdata,ydata, arguments-to-make-plot-pretty)
 
-Stress= data[:,2]
-Strain= data[:,6]
+Stress= data[:,3]
+Strain= data[:,7]
+print (Stress)
+print(Strain)
+
+
+
 
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
